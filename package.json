@@ -4,7 +4,7 @@
   "description": "Okta SDK Test server",
   "main": "./dist/spec.json",
   "bin": {
-    "server": "lib/server.js"
+    "okta-sdk-test-server": "lib/server.js"
   },
   "files": [
     "lib"
@@ -23,9 +23,10 @@
     "sinon": "2.2.0"
   },
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "fs-extra": "^3.0.1",
-    "json-stable-stringify": "^1.0.1",
-    "request": "^2.81.0"
+    "body-parser": "1.17.2",
+    "commander": "2.9.0",
+    "fs-extra": "3.0.1",
+    "json-stable-stringify": "1.0.1",
+    "request": "2.81.0"
   }
 }
