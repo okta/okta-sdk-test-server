@@ -12,20 +12,20 @@
   "scripts": {
     "test": "npm run test:unit",
     "test:unit": "istanbul cover --report text _mocha -- \"test/**/*.js\"",
-    "test:coverage": "istanbul check-coverage --statements 100 --branches 99 --functions 100 --lines 100"
+    "test:coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100"
   },
   "keywords": [],
   "license": "Apache-2.0",
   "devDependencies": {
     "chai": "3.5.0",
     "istanbul": "0.4.5",
-    "json-stable-stringify": "1.0.1",
-    "lodash": "4.17.4",
     "mocha": "3.3.0",
-    "semver": "5.3.0",
     "sinon": "2.2.0"
   },
   "dependencies": {
-    "http-proxy": "1.16.2"
+    "body-parser": "^1.17.2",
+    "fs-extra": "^3.0.1",
+    "json-stable-stringify": "^1.0.1",
+    "request": "^2.81.0"
   }
 }
