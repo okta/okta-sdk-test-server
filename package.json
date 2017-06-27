@@ -4,7 +4,7 @@
   "description": "Okta SDK Test server",
   "main": "./dist/spec.json",
   "bin": {
-    "okta-sdk-test-server": "lib/server.js"
+    "okta-sdk-test-server": "lib/index.js"
   },
   "files": [
     "lib"
