@@ -10,7 +10,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "npm run test:unit",
+    "test": "eslint -c .eslintrc lib/ test/ && npm run test:unit",
     "test:unit": "istanbul cover --report text _mocha -- \"test/**/*.js\"",
     "test:coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100"
   },
@@ -20,7 +20,8 @@
     "chai": "3.5.0",
     "istanbul": "0.4.5",
     "mocha": "3.3.0",
-    "sinon": "2.2.0"
+    "sinon": "2.2.0",
+    "eslint": "3.19.0"
   },
   "dependencies": {
     "body-parser": "1.17.2",

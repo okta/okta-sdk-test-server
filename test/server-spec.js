@@ -1,6 +1,3 @@
-const expect = require('chai').expect;
-const server = require('../lib/server');
-
 describe('server', () => {
   describe('cleanup', () => {
     it('returns 0 if there are no remaining scenarios');

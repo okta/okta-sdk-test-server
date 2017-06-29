@@ -1,6 +1,3 @@
-const expect = require('chai').expect;
-const harUtil = require('../lib/harUtil');
-
 describe('harUtil', () => {
   describe('readHarFile', () => {
     it('returns a har if a file exists');
