@@ -24,6 +24,7 @@
     "eslint": "3.19.0"
   },
   "dependencies": {
+    "@okta/openapi": "0.3.0",
     "body-parser": "1.17.2",
     "commander": "2.9.0",
     "common-tags": "1.4.0",
